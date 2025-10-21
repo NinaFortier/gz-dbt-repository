@@ -12,7 +12,7 @@ sources:
                description: primary key of the table
                tests:
                  - unique
-                 - not null
+                 - not_null
          - name: product
            identifier: raw_gz_product
            description: purchSE_PRICE by products_id

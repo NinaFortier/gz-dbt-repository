@@ -4,4 +4,4 @@ SELECT
     pdt_id AS products_id,
     revenue,
     quantity
-FROM {{ source('raw', 'sales') }};
+FROM {{ source('raw', 'sales') }}
