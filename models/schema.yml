@@ -12,7 +12,7 @@ sources:
                description: primary key of the table
                tests:
                  - unique
-                 - not_null
+                 - not null
          - name: product
            identifier: raw_gz_product
            description: purchSE_PRICE by products_id
@@ -22,3 +22,14 @@ sources:
                tests:
                  - unique
                  - not_null
+         - name: ship
+           identifier: raw_gz_ship
+           description: purchSE_PRICE by products_id
+           columns:
+             - name: orders_id
+               description: primary key of the table
+               tests:
+                 - unique
+                 - not_null
+
+                          
