@@ -7,4 +7,4 @@ SELECT
         CAST(ads_cost AS FLOAT64) AS ads_cost, 
         impression,
         click
-    FROM swift-cursor-473608-g9.gz_raw_data.raw_gz_adwords
+    FROM {{ source('raw', 'adwords') }}
