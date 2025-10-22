@@ -14,8 +14,8 @@ SELECT
     log_cost,
     ship_cost
 
-FROM {{ ref('finance_days') }}
-LEFT JOIN {{ ref('int_campaigns_day') }}
-    ON date_date = date_date
+FROM {{ ref('finance_days') }} as finance
+LEFT JOIN {{ ref('int_campaigns_day') }} as int_campaigns_day
+    ON finance.date_date = int_campaigns_day.date_date
 
 ORDER BY date_date DESC
