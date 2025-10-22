@@ -31,8 +31,8 @@ sources:
             tests:
               - unique
               - not_null
-      - name: raw_gz_adwords
-        identifier: adwords
+      - name: adwords
+        identifier: raw_gz_adwords
         description: purchSE_PRICE by products_id
         columns:
           - name: orders_id
@@ -40,8 +40,8 @@ sources:
             tests:
               - unique
               - not_null
-      - name: raw_gz_bing
-        identifier: bing
+      - name: bing
+        identifier: raw_gz_bing
         description: purchSE_PRICE by products_id
         columns:
           - name: orders_id
@@ -49,8 +49,8 @@ sources:
             tests:
               - unique
               - not_null
-      - name: raw_gz_criteo
-        identifier: criteo
+      - name: criteo
+        identifier: raw_gz_criteo
         description: purchSE_PRICE by products_id
         columns:
           - name: orders_id
@@ -58,8 +58,8 @@ sources:
             tests:
               - unique
               - not_null
-      - name: raw_gz_facebook
-        identifier: facebook
+      - name: facebook
+        identifier:  raw_gz_facebook
         description: purchSE_PRICE by products_id
         columns:
           - name: orders_id
