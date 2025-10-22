@@ -1,4 +1,3 @@
-
 version: 2
 sources:
   - name: raw # allias de la table
@@ -35,7 +34,7 @@ sources:
       - name: raw_gz_adwords
         identifier: adwords
       - name: raw_gz_bing
-        identifier: bing         
+        identifier: bing
       - name: raw_gz_criteo
         identifier: criteo
       - name: raw_gz_facebook
