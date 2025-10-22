@@ -33,9 +33,37 @@ sources:
               - not_null
       - name: raw_gz_adwords
         identifier: adwords
+        description: purchSE_PRICE by products_id
+        columns:
+          - name: orders_id
+            description: primary key of the table
+            tests:
+              - unique
+              - not_null
       - name: raw_gz_bing
         identifier: bing
+        description: purchSE_PRICE by products_id
+        columns:
+          - name: orders_id
+            description: primary key of the table
+            tests:
+              - unique
+              - not_null
       - name: raw_gz_criteo
         identifier: criteo
+        description: purchSE_PRICE by products_id
+        columns:
+          - name: orders_id
+            description: primary key of the table
+            tests:
+              - unique
+              - not_null
       - name: raw_gz_facebook
         identifier: facebook
+        description: purchSE_PRICE by products_id
+        columns:
+          - name: orders_id
+            description: primary key of the table
+            tests:
+              - unique
+              - not_null
